@@ -1,0 +1,98 @@
+.wrapper {
+    background-color: rgb(254, 250, 247);
+    color: rgb(120, 109, 98);
+}
+
+.navbar {
+    background-color: rgb(196, 187, 164);
+}
+
+.row {
+    padding: 50px;
+}
+
+#footer {
+    background-color: rgb(120, 109, 98);
+    color: white;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth !important;
+}
+
+a {
+    margin: 5px;
+}
+
+#foto {
+    margin-bottom: 50px;
+}
+
+.card {
+    border: 0px;
+    background-color: rgb(254, 250, 247);
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 50px;
+    width: 20rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#toped {
+    filter: invert(1);
+}
+
+#baris {
+    margin-bottom: -50px;
+}
+
+
+
+.flip {
+    -webkit-perspective: 800;
+    perspective: 800;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.flip .card.flipped {
+    -webkit-transform: rotatex(-180deg);
+    transform: rotatex(-180deg);
+}
+
+.flip .card {
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+
+.flip .card .face {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 2;
+}
+
+.flip .card .front {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.flip .card .back {
+    -webkit-transform: rotatex(-180deg);
+    transform: rotatex(-180deg);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-align: left;
+}

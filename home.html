@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="assets/images/icon.png" type="image/gif" sizes="16x16">
+
+	<title>Ivory and Berry</title>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+            $(".nav-item").click(function(){
+		        $(".nav-item").removeClass('active').addClass('inactive');
+		        $(this).addClass('active');
+            });
+
+            $("#na").click(function(){
+		        alert("We are sorry, this link was still under construction. Please try another one.")
+            });
+		});
+    </script>
+
+</head>
+<body>
+	<div class="wrapper">
+        <header class="header sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light py-3 shadow-sm">
+                <div class="container">
+                    <img src="assets/images/logo.jpg" style="height: 60px;">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item font-weight-bold active"><a class="nav-link" href="home.html">Home</a></li>
+                            <li class="nav-item font-weight-bold"><a class="nav-link" href="catalog.html">Catalog</a></li>
+                            <li class="nav-item font-weight-bold"><a class="nav-link" href="#contactUs">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="row">
+            <div class="col-sm-5" id="foto">
+                <img src="assets/images/1.jpg" style="width: 65%; height: auto;" class="rounded mx-auto d-block img-responsive">
+              </div>
+            <div class="col-sm-7">
+              <h3>About Us</h3> <hr class="hidden-sm hidden-md hidden-lg">
+              <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col-sm-5" id="foto">
+              <img src="assets/images/2.jpg" class="rounded mx-auto d-block img-responsive" style="width: 65%; height: auto;">
+            </div>
+            <div class="col-sm-7">
+                <h3>Our Product</h3>
+                <hr class="hidden-sm hidden-md hidden-lg">
+                <p style="text-align: left; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+          </div>
+
+          <div class="row" id="footer">
+            <div class="col-sm-8" id="contactUs">
+            <a href="https://www.instagram.com/ivorynberry">
+            <img src="assets/images/ig.png" style="width: 50px;" class="rounded mx-auto"></a>
+
+            <a href="#contactUs">
+            <img src="assets/images/wa.png" style="width: 50px;" class="rounded mx-auto" id="na"></a>
+
+            <a href="https://www.tokopedia.com/ivoryandberry">
+            <img src="assets/images/toped.png" style="width: 50px;" class="rounded mx-auto" id="toped"></a>
+            </div>
+
+            <div class="col-sm-4"></div>
+          </div>
+
+	</div>	
+</body>
+</html>
